@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_all_tab_product_variants",
+  "info": {
+    "displayName": "tab-product-variants"
+  },
+  "options": {},
+  "attributes": {
+    "variants": {
+      "type": "component",
+      "component": "pieces.product-variants",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

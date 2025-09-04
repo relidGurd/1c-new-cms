@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_all_tab_related_news",
+  "info": {
+    "displayName": "tab-related-news",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "related_news": {
+      "type": "json"
+    }
+  },
+  "config": {}
+}

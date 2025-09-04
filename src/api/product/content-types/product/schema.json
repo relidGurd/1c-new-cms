@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "product"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subcategory": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::subcategory.subcategory",
+      "inversedBy": "products"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "price": {
+      "type": "biginteger",
+      "required": true
+    },
+    "tab": {
+      "type": "dynamiczone",
+      "components": [
+        "all.tab-related-products",
+        "all.tab-related-news",
+        "all.tab-description",
+        "all.tab-product-variants"
+      ]
+    },
+    "article": {
+      "type": "uid",
+      "required": true,
+      "maxLength": 10,
+      "regex": "^[A-Z0-9]+$"
+    }
+  }
+}

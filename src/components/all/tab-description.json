@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_all_tab_descriptions",
+  "info": {
+    "displayName": "tab-description"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

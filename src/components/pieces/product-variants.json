@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pieces_product_variants",
+  "info": {
+    "displayName": "product-variants"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "price": {
+      "type": "biginteger",
+      "required": true
+    }
+  },
+  "config": {}
+}

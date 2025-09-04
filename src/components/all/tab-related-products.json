@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_all_tab_related_products",
+  "info": {
+    "displayName": "tab-related-products"
+  },
+  "options": {},
+  "attributes": {
+    "realted_ids": {
+      "type": "json"
+    }
+  },
+  "config": {}
+}
