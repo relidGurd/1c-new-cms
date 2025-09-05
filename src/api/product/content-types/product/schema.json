@@ -51,6 +51,10 @@
       "required": true,
       "maxLength": 10,
       "regex": "^[A-Z0-9]+$"
+    },
+    "description": {
+      "type": "text",
+      "required": true
     }
   }
 }
