@@ -40,8 +40,6 @@
     "tab": {
       "type": "dynamiczone",
       "components": [
-        "all.tab-related-products",
-        "all.tab-related-news",
         "all.tab-description",
         "all.tab-product-variants"
       ]

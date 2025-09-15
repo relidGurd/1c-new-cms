@@ -443,12 +443,7 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
       'api::subcategory.subcategory'
     >;
     tab: Schema.Attribute.DynamicZone<
-      [
-        'all.tab-related-products',
-        'all.tab-related-news',
-        'all.tab-description',
-        'all.tab-product-variants',
-      ]
+      ['all.tab-description', 'all.tab-product-variants']
     >;
     title: Schema.Attribute.String & Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;
